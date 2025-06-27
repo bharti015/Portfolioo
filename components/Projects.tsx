@@ -87,14 +87,18 @@ export default function Projects() {
                   {/* {project.links.demo && (
                     <a 
                       href={project.links.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="theme-transition flex-1 text-center py-2 bg-emerald-400 dark:bg-purple-500 text-white rounded-lg hover:shadow-md text-sm font-medium"
                     >
                       <i className="fas fa-external-link-alt mr-1"></i>Demo
                     </a>
                   )} */}
                   {project.links.notebook && (
-                    <a 
+                    <a
                       href={project.links.notebook}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="theme-transition flex-1 text-center py-2 bg-emerald-400 dark:bg-purple-500 text-white rounded-lg hover:shadow-md text-sm font-medium"
                     >
                       <i className="fas fa-book mr-1"></i>Notebook
@@ -102,6 +106,8 @@ export default function Projects() {
                   )}
                   {/* <a 
                     href={project.links.code}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="theme-transition flex-1 text-center py-2 border border-rose-600 dark:border-rose-300 text-rose-600 dark:text-rose-300 rounded-lg hover:bg-rose-600 dark:hover:bg-rose-300 hover:text-white dark:hover:text-gray-900 text-sm font-medium"
                   >
                     <i className="fas fa-GitHub mr-1"></i>Repo
