@@ -11,7 +11,7 @@ export default function Projects() {
       tags: ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
       links: {
         notebook: "https://www.kaggle.com/code/ei0oei/network-anomaly",
-        code: "#",
+        code: "https://github.com/bharti015/Anomaly-detection-using-Isolation-Forest",
       },
     },
     {
@@ -20,10 +20,10 @@ export default function Projects() {
         "Built a predictive model to classify employee retention likelihood using HR data. Visualized key indicators like satisfaction and performance rating.",
       image:
         "https://www.kaggleusercontent.com/kf/199157618/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..86J-wmp8peZAy_4a-XYbUw.ri-krWuTZ_Ep0qJOeytTxXpDqC7EBNtV6fLLPk7iZFhfEN8BwwaDdrRqKxcaBoDMw9caMSI4Ui07QJI2Oa97sRZXv55hrKi9wlyByAFSSx82px1YC765_KrlW8UKsRQtpPxNXd6wlFRLRPgEgM3xZYU5rejlyX9ghP4D0mLwaH4hBubymrH3XH_NT1vnbGBnjuJqcGhXZxxmeV5xLi7u-CD-5cgH6Y-YMNpk-QIYmxE3GON0gB_S7ff8TRNXn-3YD6oS9u2dAo6HQpJKfNFpgOL6BX-pZ9pYVpIOlrOiYGlrFQvohUi_Q_NsAuDC8aTnPCfYP22_wSLB7OpLpK1a39jj3-Di-rVasKcQAJs8WRk-W3A_POAT-1CxbKiKDd7BQntQ8hhyXbDULEEUv3v5BwGrQroE3Xk0n20dF_NxDe1qO1g2CYqTwHxMfM7SEWsCWKLLZ9jRORG6EK5zlMP_LeDe-x-4kRcntJnb7IyGKHjDDnrGytRKAY37EoXvZptCJDiioVpdWaQJiV3uIisjRSKDImOOnA8d_oSYgOPGGMw85O37_PgXv77r05bZpVegdfFpWGSekCnypjhgrlSTboNqczdyc-xka8FKfb95TKTgREtUExityT3eKs2_WLQK.OU2jjA2_bHyBvhJUKp84-w/__results___files/__results___36_1.png",
-      tags: ["Python", "Jupyter Notebook", "Seaborn"],
+      tags: ["Python", "Kaggle", "Seaborn"],
       links: {
         notebook: "https://www.kaggle.com/code/ei0oei/capstone-project1",
-        code: "#",
+        code: "https://github.com/bharti015/projects/blob/main/capstone-project1.ipynb",
       },
     },
     // {
@@ -83,15 +83,15 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                {/* <div className="flex space-x-3">
-                  {project.links.demo && (
+                <div className="flex space-x-3">
+                  {/* {project.links.demo && (
                     <a 
                       href={project.links.demo}
                       className="theme-transition flex-1 text-center py-2 bg-emerald-400 dark:bg-purple-500 text-white rounded-lg hover:shadow-md text-sm font-medium"
                     >
                       <i className="fas fa-external-link-alt mr-1"></i>Demo
                     </a>
-                  )}
+                  )} */}
                   {project.links.notebook && (
                     <a 
                       href={project.links.notebook}
@@ -100,13 +100,13 @@ export default function Projects() {
                       <i className="fas fa-book mr-1"></i>Notebook
                     </a>
                   )}
-                  <a 
+                  {/* <a 
                     href={project.links.code}
                     className="theme-transition flex-1 text-center py-2 border border-rose-600 dark:border-rose-300 text-rose-600 dark:text-rose-300 rounded-lg hover:bg-rose-600 dark:hover:bg-rose-300 hover:text-white dark:hover:text-gray-900 text-sm font-medium"
                   >
-                    <i className="fas fa-code mr-1"></i>Code
-                  </a>
-                </div> */}
+                    <i className="fas fa-GitHub mr-1"></i>Repo
+                  </a> */}
+                </div>
               </div>
             </div>
           ))}
