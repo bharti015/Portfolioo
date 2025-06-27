@@ -112,7 +112,7 @@ export default function Contact() {
               Get in Touch
             </h3>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
               {contactInfo.map((info, index) => (
                 <div key={index} className="flex items-center">
                   <div
