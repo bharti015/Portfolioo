@@ -43,7 +43,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
-          <main className="min-h-screen pt-16 pb-8">
+          <main className="min-h-screen">
             <div className="relative min-h-screen">{children}</div>
           </main>
           <Toaster />
