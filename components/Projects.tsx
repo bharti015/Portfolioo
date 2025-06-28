@@ -6,8 +6,7 @@ export default function Projects() {
       title: "Anomaly Detection using Isolation Forest (Aug 2024)",
       description:
         "Built an ML pipeline using Isolation Forest to detect unusual traffic behavior. Cleaned and analyzed over 20K records, improving anomaly detection accuracy with feature selection.",
-      image:
-        "https://www.kaggleusercontent.com/kf/194408683/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..qzGShoD_0Bif-9I8mhxuYA.EOJhkTWVRaI7pqAd-nxdHgji_kKJRGZOrPE4MJyBVV-mtMfqRM_lp7QRV3LOhdBDrRcTA65hWJT0Y-osd9J-JINEtM2tbcEq5BW76xZVjYganwrw7FJbdyH1Hh12kWK-H10cHcElY1qLwFT47vJ7pZSurRiyo4GbYNGJ-VCzKn9X2frLiNtPaxTSmjryx9LW8gAcX7ES3oCaG_Sus3QYrj9rE_ZGSntGbiqBnF_TuVBgTxNb1DrELmnIEkcSEVZPaQjimFd1hpql6bMU4bPU7QlPyeP0beJKj4mDoctesSy-oHxEjzia0XzZNKKaonnxCavP049nEj8UPFrGZU8IwS9C-gGNxmbLI8tdOSR92dvR015Ml6ym8qeSoD5G2Ywv1csK80u1Y7bVoFGSW9glNEu6N0S_M924iguBzxncwWbyIqV7r0i_YSlvlN0HJ9L4S4TM5UEGfbmODJR-z6akj1O1Tgsm8_6vvN7ozmYhCXEbWom2foe-fPLsFS5L7fGfvf6-mUnF1mIW1rPwun2nndMKhoo6yLRjBSHd5ddD96AiGEiEs5BuZPuXQ-Pr-AgMUE_3f6tbo-r8hegujcx3jVuzDuN3GY6ucy0POuDr-qxTx1CVO8UMObfq85-e5yCn.qGMksFHFYbRMdLHfsGyLHA/__results___files/__results___24_1.png",
+      image: "/anomaly.png",
       tags: ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
       links: {
         notebook: "https://www.kaggle.com/code/ei0oei/network-anomaly",
@@ -18,8 +17,7 @@ export default function Projects() {
       title: "Employee Retention Analysis (Jun – Jul 2024)",
       description:
         "Built a predictive model to classify employee retention likelihood using HR data. Visualized key indicators like satisfaction and performance rating.",
-      image:
-        "https://www.kaggleusercontent.com/kf/199157618/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..86J-wmp8peZAy_4a-XYbUw.ri-krWuTZ_Ep0qJOeytTxXpDqC7EBNtV6fLLPk7iZFhfEN8BwwaDdrRqKxcaBoDMw9caMSI4Ui07QJI2Oa97sRZXv55hrKi9wlyByAFSSx82px1YC765_KrlW8UKsRQtpPxNXd6wlFRLRPgEgM3xZYU5rejlyX9ghP4D0mLwaH4hBubymrH3XH_NT1vnbGBnjuJqcGhXZxxmeV5xLi7u-CD-5cgH6Y-YMNpk-QIYmxE3GON0gB_S7ff8TRNXn-3YD6oS9u2dAo6HQpJKfNFpgOL6BX-pZ9pYVpIOlrOiYGlrFQvohUi_Q_NsAuDC8aTnPCfYP22_wSLB7OpLpK1a39jj3-Di-rVasKcQAJs8WRk-W3A_POAT-1CxbKiKDd7BQntQ8hhyXbDULEEUv3v5BwGrQroE3Xk0n20dF_NxDe1qO1g2CYqTwHxMfM7SEWsCWKLLZ9jRORG6EK5zlMP_LeDe-x-4kRcntJnb7IyGKHjDDnrGytRKAY37EoXvZptCJDiioVpdWaQJiV3uIisjRSKDImOOnA8d_oSYgOPGGMw85O37_PgXv77r05bZpVegdfFpWGSekCnypjhgrlSTboNqczdyc-xka8FKfb95TKTgREtUExityT3eKs2_WLQK.OU2jjA2_bHyBvhJUKp84-w/__results___files/__results___36_1.png",
+      image:"/employee.png",
       tags: ["Python", "Kaggle", "Seaborn"],
       links: {
         notebook: "https://www.kaggle.com/code/ei0oei/capstone-project1",

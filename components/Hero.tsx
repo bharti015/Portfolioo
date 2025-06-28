@@ -25,27 +25,27 @@ export default function Hero() {
               <span className="text-rose-600 dark:text-rose-300">Bharti.</span>
             </h1>
             <h2 className="text-xl md:text-2xl font-light text-indigo-500 dark:text-cyan-300 mb-6">
-              Data Analyst & React Developer
+              Cybersecurity Learner & Tech Enthusiast
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-              I turn datasets into dashboards, and code into clarity. Passionate
-              about uncovering insights through data and creating beautiful,
-              functional web applications.
+              Passionate about securing digital spaces and understanding how systems
+              can be protected, broken, and rebuilt. Exploring cybersecurity
+              through hands-on labs, CTFs, and problem-solving.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button
                 onClick={() => scrollToSection("projects")}
                 className="theme-transition inline-flex items-center px-6 py-3 bg-emerald-400 dark:bg-purple-500 text-white font-medium rounded-lg hover:shadow-lg transform hover:-translate-y-1"
               >
-                <i className="fas fa-eye mr-2"></i>
-                View Projects
+                <i className="fas fa-shield-alt mr-2"></i>
+                Explore Projects
               </button>
               <button
                 onClick={() => scrollToSection("resume")}
                 className="theme-transition inline-flex items-center px-6 py-3 border-2 border-rose-600 dark:border-rose-300 text-rose-600 dark:text-rose-300 font-medium rounded-lg hover:bg-rose-600 dark:hover:bg-rose-300 hover:text-white dark:hover:text-gray-900"
               >
-                <i className="fas fa-download mr-2"></i>
-                Download Resume
+                <i className="fas fa-file-alt mr-2"></i>
+                View Resume
               </button>
             </div>
           </div>

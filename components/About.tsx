@@ -3,12 +3,13 @@
 export default function About() {
   const tools = [
     "Python",
-    "R",
     "SQL",
     "Power BI",
     "Tableau",
     "React",
-    "JavaScript",
+    "Wireshark",
+    "Kali Linux",
+    "TryHackMe",
   ];
 
   return (
@@ -22,27 +23,21 @@ export default function About() {
         </div>
 
         <div className="grid grid-cols-1 items-center">
-          {/* <div>
-            <img 
-              src="https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
-              alt="Abstract data visualization and technology patterns" 
-              className="rounded-xl shadow-lg w-full h-auto" 
-            />
-          </div> */}
           <div>
             <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-6">
               My Journey
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-              My passion for data began during my academic journey where I
-              discovered the power of transforming raw information into
-              actionable insights. I have spent countless hours mastering the
-              art of data analysis, visualization, and web development.
+              My journey began with data — analyzing trends, building dashboards,
+              and unlocking insights through Python and SQL. But as I explored further,
+              I became fascinated with how systems are protected and how data can
+              be compromised.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-              Currently seeking a full-time data analyst role where I can
-              contribute to data-driven decision making and continue growing in
-              the field of analytics and visualization.
+              Now, I’m expanding my skill set into cybersecurity. I am hands-on with
+              platforms like TryHackMe, learning about threats, vulnerabilities, and
+              how to defend against them. I’m looking to grow at the intersection of
+              data and security — making smart systems safer.
             </p>
 
             <h4 className="text-lg font-semibold text-indigo-500 dark:text-cyan-300 mb-4">
