@@ -30,7 +30,7 @@ export default function Certifications() {
       title: "Geo-data sharing and Cyber Security",
       subtitle: "IIRS-ISRO Certificate Course",
       institution: "IIRS",
-      year: "2023",
+      year: "2024",
       description:
         "Completed a one-week online course by IIRS (ISRO) focused on secure sharing of geospatial data. Explored cyber threats, data protection policies, and best practices for safeguarding spatial information in digital infrastructures.",
       icon: "fas fa-satellite",
